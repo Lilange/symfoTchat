@@ -52,7 +52,7 @@ class LoginController extends Controller {
     public function logout(Request $r) {
         return new Response("", 401);
     }
-/**
+    /**
      * @Route("/disconnect/{id}")
      */
     public function disconnect(Request $r,$id){
