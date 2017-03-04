@@ -18,7 +18,7 @@ use Symfony\Component\Security\Http\Logout\LogoutSuccessHandlerInterface;
  * @author loic
  */
 class LogoutHandler implements LogoutSuccessHandlerInterface{
-    
+
 
     public function onLogoutSuccess(Request $request) {
         //on récupère l'utilisateur de la session actuelle pour le déconnecter
